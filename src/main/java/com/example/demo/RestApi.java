@@ -17,7 +17,7 @@ public class RestApi {
 private static KafkaProducer<String, String> producer;
 static {
     Properties configProps = new Properties();
-    System.out.println("+++++ "+RestApi.class.getResource("truststore.jks").getFile());
+    System.out.println("+++++ "+RestApi.class.getClassLoader().getResource("truststore.jks").getFile());
     configProps.put("security.protocol","ssl");
     configProps.put("ssl.truststore.location", RestApi.class.getResource("truststore.jks").getFile());
     configProps.put("ssl.truststore.password","password");
