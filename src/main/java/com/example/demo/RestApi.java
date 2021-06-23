@@ -42,7 +42,7 @@ static {
     configProps.put("ssl.truststore.type","JKS");
     configProps.put(
             ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,
-            "my-cluster-kafka-ext-bootstrap-default.dte-ocp46-j2zwxa-915b3b336cabec458a7c7ec2aa7c625f-0000.us-east.containers.appdomain.cloud:443");
+            "my-cluster-kafka-bootstrap.amqs:9093");
     configProps.put(
             ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,
             StringSerializer.class);
