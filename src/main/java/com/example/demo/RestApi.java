@@ -37,7 +37,7 @@ static {
     configProps.put("security.protocol","ssl");
     configProps.put("ssl.truststore.location", "/home/jboss/truststore.jks");
     configProps.put("ssl.truststore.password","password");
-    configProps.put("ssl.truststore.type","PKCS12");
+    configProps.put("ssl.truststore.type","JKS");
     configProps.put(
             ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,
             "my-cluster-kafka-bootstrap.amqs:9093");
