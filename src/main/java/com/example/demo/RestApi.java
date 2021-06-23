@@ -12,7 +12,7 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.util.Properties;
 
-@RestController
+//@RestController
 public class RestApi {
 
 
